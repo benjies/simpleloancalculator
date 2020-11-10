@@ -10,4 +10,4 @@ This is a simple loan calculator that contains:
 
 A staple standard for all new learners of Javascript.
 
-View a live demo [here](google.com) hosted with Netlify.
+View a live demo [here](https://relaxed-golick-941de8.netlify.app/) hosted with Netlify.
