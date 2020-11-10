@@ -1,0 +1,83 @@
+body {
+  background-color: #333; }
+  body .container {
+    display: flex; }
+    body .container .row {
+      flex-direction: row;
+      margin: auto; }
+      body .container .row .col {
+        flex-direction: column; }
+        body .container .row .col .card {
+          text-align: center;
+          background: #fff;
+          max-width: 320px;
+          padding: 0.5rem 2rem;
+          border-radius: 15px;
+          margin-top: 2rem; }
+          body .container .row .col .card #loading,
+          body .container .row .col .card .results {
+            display: none; }
+          body .container .row .col .card .alert {
+            background: #f08e8e;
+            color: #5e0e0e;
+            padding: 1rem;
+            margin: 1rem;
+            position: relative; }
+          body .container .row .col .card .heading {
+            padding: 0.5rem 2rem;
+            margin: 0; }
+          body .container .row .col .card #form-id {
+            padding: 1rem 2rem; }
+            body .container .row .col .card #form-id .form-group {
+              margin: 0.75rem 0; }
+              body .container .row .col .card #form-id .form-group .input-group {
+                display: flex;
+                margin: 0; }
+                body .container .row .col .card #form-id .form-group .input-group .addon {
+                  background: #333;
+                  color: #fff;
+                  padding: 1rem; }
+                body .container .row .col .card #form-id .form-group .input-group .form-control {
+                  background: #fff;
+                  color: #333;
+                  padding: 1rem;
+                  width: 100%;
+                  outline: none; }
+                  body .container .row .col .card #form-id .form-group .input-group .form-control::-webkit-outer-spin-button, body .container .row .col .card #form-id .form-group .input-group .form-control::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0; }
+                body .container .row .col .card #form-id .form-group .input-group #calculate {
+                  width: 100%;
+                  padding: 1rem;
+                  background: #333;
+                  color: #fff;
+                  border: none; }
+          body .container .row .col .card .results {
+            padding: 1rem; }
+            body .container .row .col .card .results h5 {
+              font-size: 2rem;
+              margin: 0; }
+            body .container .row .col .card .results .form-group {
+              margin: 0.75rem 0; }
+              body .container .row .col .card .results .form-group .input-group {
+                display: flex;
+                margin: 0; }
+                body .container .row .col .card .results .form-group .input-group .addon {
+                  background: #333;
+                  color: #fff;
+                  padding: 1rem; }
+                body .container .row .col .card .results .form-group .input-group .form-control {
+                  background: #fff;
+                  color: #333;
+                  padding: 1rem;
+                  width: 100%;
+                  outline: none; }
+                  body .container .row .col .card .results .form-group .input-group .form-control::-webkit-outer-spin-button, body .container .row .col .card .results .form-group .input-group .form-control::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0; }
+                body .container .row .col .card .results .form-group .input-group #calculate {
+                  width: 100%;
+                  padding: 1rem;
+                  background: #333;
+                  color: #fff;
+                  border: none; }

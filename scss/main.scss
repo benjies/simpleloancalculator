@@ -1,0 +1,109 @@
+body {
+  background-color: #333;
+  .container {
+    display: flex;
+    .row {
+      flex-direction: row;
+      margin: auto;
+      .col {
+        flex-direction: column;
+        // margin: auto;
+        .card {
+          text-align: center;
+          background: #fff;
+          max-width: 320px;
+          padding: 0.5rem 2rem;
+          border-radius: 15px;
+          margin-top: 2rem;
+          #loading,
+          .results {
+            display: none;
+          }
+          .alert {
+            background: rgb(240, 142, 142);
+            color: rgb(94, 14, 14);
+            padding: 1rem;
+            margin: 1rem;
+            position: relative;
+          }
+          .heading {
+            padding: 0.5rem 2rem;
+            margin: 0;
+          }
+          #form-id {
+            padding: 1rem 2rem;
+            .form-group {
+              margin: 0.75rem 0;
+              .input-group {
+                display: flex;
+                margin: 0;
+                .addon {
+                  background: #333;
+                  color: #fff;
+                  padding: 1rem;
+                }
+                .form-control {
+                  background: #fff;
+                  color: #333;
+                  padding: 1rem;
+                  width: 100%;
+                  outline: none;
+                  &::-webkit-outer-spin-button,
+                  &::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                  }
+                }
+                #calculate {
+                  width: 100%;
+                  padding: 1rem;
+                  background: #333;
+                  color: #fff;
+                  border: none;
+                }
+              }
+            }
+          }
+          .results {
+            padding: 1rem;
+            h5 {
+              font-size: 2rem;
+              margin: 0;
+            }
+            .form-group {
+              margin: 0.75rem 0;
+              .input-group {
+                display: flex;
+                margin: 0;
+                .addon {
+                  background: #333;
+                  color: #fff;
+                  padding: 1rem;
+                }
+                .form-control {
+                  background: #fff;
+                  color: #333;
+                  padding: 1rem;
+                  width: 100%;
+                  outline: none;
+                  &::-webkit-outer-spin-button,
+                  &::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                  }
+                }
+                #calculate {
+                  width: 100%;
+                  padding: 1rem;
+                  background: #333;
+                  color: #fff;
+                  border: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
